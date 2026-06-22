@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-paper text-charcoal font-body antialiased;
+  }
+  ::selection {
+    background-color: #C9933D;
+    color: #15213B;
+  }
+  *:focus-visible {
+    outline: 2px solid #1F6E4A;
+    outline-offset: 2px;
+  }
+}
+
+.dotted-leader {
+  background-image: repeating-linear-gradient(
+    to right,
+    currentColor 0,
+    currentColor 3px,
+    transparent 3px,
+    transparent 9px
+  );
+  background-position: bottom;
+  background-size: 100% 1px;
+  background-repeat: no-repeat;
+}
+
+.perforation {
+  background-image: radial-gradient(circle, #F4EFE3 3px, transparent 3px);
+  background-size: 16px 16px;
+  background-position: center;
+}
