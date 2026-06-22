@@ -90,7 +90,7 @@ export default function Hero() {
         <div className="w-40">
 
           <img
-            src="/public/hanacantik.jpeg"
+            src="/hanacantik.jpeg"
             alt="Koperasi Indonesia"
             className="rounded-xl object-cover h-52 w-full shadow-md"
           />

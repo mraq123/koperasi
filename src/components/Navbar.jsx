@@ -3,7 +3,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 bg-paper/95 backdrop-blur-sm border-b border-ink/15">
       <div className="max-w-6xl mx-auto px-6 lg:px-8 h-16 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-2.5 group">
-          <img src="/public/logokoperasi.png" alt="logo" className="w-8 h-8" />
+          <img src="/logokoperasi.png" alt="logo" className="w-8 h-8" />
           <span className="font-display text-lg font-semibold tracking-tight text-ink">
            Koperasi
           </span>
